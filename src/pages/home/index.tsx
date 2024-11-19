@@ -1,21 +1,15 @@
 /*
- * @Description: 
+ * @Description:
  * @Author: sunfanghui
- * @Date: 2024-11-19 16:25:49
+ * @Date: 2024-11-19 21:28:26
  * @LastEditors: sunfanghui
- * @LastEditTime: 2024-11-19 17:04:22
+ * @LastEditTime: 2024-11-19 21:37:19
  */
-import { Button } from "antd-mobile";
-import React from "react";
-import "./style.css";
+import type { FC } from 'react';
+import React from 'react';
 
-const UserHome: React.FC = () => {
-  return (
-    <div className="w-32 h-32 bg-red-500">
-      home1221
-      <Button>Button</Button>
-    </div>
-  );
+const UserHome: FC = () => {
+  return <div>121</div>
 };
 
-export default UserHome;
+export default UserHome
