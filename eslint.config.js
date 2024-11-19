@@ -1,3 +1,10 @@
+/*
+ * @Description:
+ * @Author: sunfanghui
+ * @Date: 2024-11-19 21:24:56
+ * @LastEditors: sunfanghui
+ * @LastEditTime: 2024-11-19 21:54:02
+ */
 import antfu from '@antfu/eslint-config'
 
 export default antfu({
@@ -20,6 +27,7 @@ export default antfu({
     'vite.config.ts',
     'postcss.config.js',
     'tailwind.config.js',
+    'tsconfig.json',
   ],
   rules: {
     'no-console': 'off',
@@ -28,6 +36,6 @@ export default antfu({
     'no-lonely-if': 0,
     'node/prefer-global/process': 0,
     'perfectionist/sort-imports': 0,
-    'semi': 0
+    'style/semi': 0,
   },
 })

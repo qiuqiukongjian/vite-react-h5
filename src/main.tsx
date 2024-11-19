@@ -3,7 +3,7 @@
  * @Author: sunfanghui
  * @Date: 2024-11-19 16:20:58
  * @LastEditors: sunfanghui
- * @LastEditTime: 2024-11-19 21:36:09
+ * @LastEditTime: 2024-11-19 21:54:58
  */
 import React from 'react';
 import { createRoot } from 'react-dom/client';
@@ -15,5 +15,5 @@ import './tailwind.css';
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
     <App />
-  </BrowserRouter>
+  </BrowserRouter>,
 );
